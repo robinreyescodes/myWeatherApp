@@ -9,6 +9,7 @@ html {
 
 body {
   display: flex;
+  font-family: "Open Sans";
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -20,12 +21,48 @@ body {
 }
 
 .card {
-  border: 1px solid white;
-  background: #eaeaea;
-  border-radius: 5px;
-  padding: 2rem;
+  background-color: #000000d0;
+  color: white;
+  border-radius: 2rem;
+  padding: 4rem 4rem;
   font-size: 2rem;
   width: 100%;
-  max-width: 42rem;
-  font-family: "Open Sans";
+  max-width: 60rem;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem; */
+}
+
+button {
+  border: none;
+  border-radius: 50%;
+  background-color: #7c7c7c2b;
+  height: 4.4rem;
+  width: 4.4rem;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.search-bar {
+  outline: none;
+  border: none;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #7c7c7c2b;
+  color: white;
+  font-family: inherit;
+  font-size: 1.6rem;
+  width: calc(100% - 9rem);
+  margin-bottom: 1rem;
+}
+
+button:hover {
+  background-color: #7c7c7c6b;
 }
